@@ -1,0 +1,17 @@
+body {
+  font-family: $body;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: $header;
+
+  &.header {
+    &--special {
+      font-family: $special-header;
+      font-size: 45pt;
+      font-style: oblique;
+      letter-spacing: 1.5pt;
+    }
+  }
+}
