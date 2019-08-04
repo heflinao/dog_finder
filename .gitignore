@@ -33,5 +33,5 @@
 yarn-debug.log*
 .yarn-integrity
 
-.bundle/
 /vendor/ruby
+/bin
